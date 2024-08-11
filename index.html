@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(253, 247, 247, 0.897);
+            color: rgb(17, 1, 1);
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(97, 39, 204)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 15px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black
+        }
+
+        nav ul li a:hover {
+            color: red;
+            font-size: 1.5rem;
+        }
+
+        .left {
+            font-size: 2.5rem;
+        }
+
+        .right {
+            font-size: 1.3rem;
+        }
+
+        .firstsec {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .firstsec>div {
+            width: 18%;
+        }
+
+        .leftSec {
+            font-size: 2.5rem;
+
+        }
+
+        .leftSec .btn {
+            padding: 12px;
+            background-color: rgb(19, 165, 209);
+            font-size: 20px;
+            cursor: pointer;
+            margin: 8px 0;
+        }
+
+        .rightSec img {
+            width: 140%;
+            background-color: white;
+            opacity: 0.8;
+        }
+
+        .color {
+            color: purple
+        }
+
+        .secondsec {
+            max-width: 80vw;
+            margin: auto;
+            height: 110vh;
+            font-size: 25px;
+        }
+
+        main hr {
+            border: 0;
+            height: 4px;
+            background-color: black;
+            margin: 50px 50px;
+
+        }
+
+        .secondsec .box {
+            background-color: black;
+            width: 60vw;
+            height: 2px;
+            margin: 80px 80px;
+            display: flex;
+            padding: 2px;
+        }
+
+        .secondsec .vertical {
+            height: 80px;
+            width: 1px;
+            background-color: black;
+            margin: 10 200px;
+
+        }
+
+        .image-top {
+            width: 150px;
+            position: relative;
+            top: -82px;
+            left: -5px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 95px;
+            width: 120px;
+            left: -20px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 180px;
+            left: -120px;
+            width: 200px;
+            font-size: 14px;
+
+        }
+
+        .thirdsec {
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+            font-size: 25px;
+        }
+
+        .thirdsec .box {
+            background-color: black;
+            width: 60vw;
+            height: 0.5rem;
+            margin: 80px 80px;
+            display: flex;
+            padding: 2px;
+        }
+
+        .thirdsec .vertical2 {
+            height: 80px;
+            width: 2px;
+            background-color: black;
+            margin: 0 100px;
+
+        }
+
+        .image-top1 {
+            width: 105px;
+            position: relative;
+            top: -120px;
+            left: -55px;
+        }
+
+        .vertical-title1 {
+            position: relative;
+            top: 95px;
+            width: 100px;
+            left: -140px;
+            font-size: 30px;
+        }
+
+        .fourthsec {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+            font-size: 20px;
+            height: 40vh;
+
+        }
+
+        .leftsec2 {
+            margin: 60px;
+
+        }
+
+        .rightsec2 img {
+            border: 1px solid black;
+            width: 318px;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 55px;
+            border-radius: 30%;
+
+        }
+
+        footer {
+            background-color: rgb(97, 39, 204);
+            height: 250px;
+        }
+
+        .footer {
+            display: flex;
+            font-size: 25px;
+            padding: 30px 50px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+<header>
+</header>
+<main>
+    <section class="firstsec">
+        <div class="leftSec">Hi I'm <span class="color">Mohit</span>&#128075
+            <div>I'm a passionate</div>
+            <div>Web Developer</div>
+            <button class="btn"><a href="C:\Users\shivam\OneDrive\Desktop\Task-1\Resume.pdf">Download
+                    Resume</a></button>
+            <button class="btn"><a href="https://github.com/MohitArora77">GitHub</a></button>
+
+
+        </div>
+        <div class="rightSec">
+            <img src="dev.png">
+        </div>
+    </section>
+    <hr>
+    <section class="secondsec">
+        <h1>PROJECTS</h1>
+        <br><br><br><br>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="game.png">
+            </div>
+            <div class="vertical-title">
+                <strong>Interactive TicTacToe Game</strong>
+            </div>
+            <div class="vertical-desc">The players will take
+                turns making their.The game display at the top of the window will
+                show the name of the player who gets to go next.<br>If a player wins,
+                then the game display will show a winning message with
+                the player's name or mark (X or O).
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="Card.png">
+            </div>
+            <div class="vertical-title">
+                <strong>Card Game</strong>
+            </div>
+            <div class="vertical-desc">The game uses a standard deck of 52 playing cards,
+                which are randomly shuffled and distributed between two players.<br>
+                Each player reveals their top card, and the player with
+                the higher-ranking card wins the round. <br>The winning player collects
+                both cards, and the game continues until one player collects all
+                the cards.
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="port.png">
+            </div>
+            <div class="vertical-title">
+                <strong>My Portfolio</strong>
+            </div>
+            <div class="vertical-desc">Creating a personal portfolio using CSS and HTML is a popular beginner web
+                development
+                project.<br>The portfolio can have the same purpose as a CV.<br> Most CVs are written with text, while
+                the portfolio is for showcasing, so it is visual with images and often more detailed than the CV.
+                It is a place where you can show your work experience and showcase the projects.
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="thirdsec">
+        <h1>SKILLS</h1>
+        <br><br><br><br>
+        <div class="box">
+            <div class="vertical2">
+                <img class="image-top1" src="lang.png">
+            </div>
+            <div class="vertical-title1">
+                <a href="www.w3schools.com/python/python_intro.asp"> PYTHON</a>
+            </div>
+
+            <div class="vertical2">
+                <img class="image-top1" src="lang1.png">
+            </div>
+            <div class="vertical-title1">
+                <a href="www.geeksforgeeks.org/html5-introduction/">HTML5</a>
+            </div>
+            <div class="vertical2">
+                <img class="image-top1" src="lang3.png">
+            </div>
+            <div class="vertical-title1">
+                <a href="www.geeksforgeeks.org/css-introduction/">CSS</a>
+            </div>
+            <div class="vertical2">
+                <img class="image-top1" src="lang4.png">
+            </div>
+            <div class="vertical-title1">
+                <a href="www.geeksforgeeks.org/introduction-to-javascript/">JAVASCRIPT</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="fourthsec">
+        <h1><span class="color">CONNECT WITH ME</span></h1>
+        <div class="leftsec2">
+            <ul style="list-style-type:none">
+                <li>&#128231<a href="marora.se4@gmail.com"> marora.se4@gmail.com</a></li>
+                <li>&#9742 +91 7827188612</a></li>
+                <li><i style="font-size:24px" class="fa">&#xf09b;</i>
+                    <a href="https://github.com/MohitArora77"> https://github.com/MohitArora77</a>
+                </li>
+                <li><i style="font-size:24px" class="fa">&#xf08c;</i><a
+                        href="https://www.linkedin.com/in/mohit-arora-6489a4257">
+                        https://www.linkedin.com/in/mohit-arora-6489a4257</a></li>
+            </ul>
+
+        </div>
+        <div class="rightsec2">
+            <img src="mohit.jpg">
+
+        </div>
+    </section>
+
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Mohit's Portfolio</h3>
+        </div>
+
+        <div class="footer-second">
+            <ul>
+                <li>Home</a></li>
+                <li>About</a></li>
+                <li>Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="footer-rights">
+        Copyright &copy Mohitportfolio.com| All Right Reserved
+    </div>
+</footer>
+
+</html>
